@@ -12,14 +12,13 @@ export default function RegisterReducer(state=initialState,action){
   switch(action.type){
     case 'REGISTER':
     return{
-      // state:{
         firstName:action.payload.firstName,
         lastName:action.payload.lastName,
         email:action.payload.email,
         password:action.payload.password,
         mobileNumber:action.payload.mobileNumber,
-      // }
     }
-    console.log(state)
+    default:
+    return state
   }
 }
