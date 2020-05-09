@@ -1,11 +1,11 @@
 import React from 'react'
 import Paragraph from '@tds/core-paragraph'
-import Heading from '@tds/core-heading'
+import DisplayHeading from '@tds/core-display-heading'
 import Button from '@tds/core-button'
 const ShowRegisteredUser = props =>{
   return(
     <>
-    <Heading level='h3'>User Register Succesfully</Heading>
+    <DisplayHeading>User Registeration Successful</DisplayHeading>
     <Paragraph>FirstName : {props.user.firstName}</Paragraph> 
     <Paragraph>LASTNAME : {props.user.lastName}</Paragraph> 
     <Paragraph>Email : {props.user.email}</Paragraph> 

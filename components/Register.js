@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import Input from '@tds/core-input'
 import Button from '@tds/core-button'
 import Box from '@tds/core-box'
-import Heading from '@tds/core-heading'
+import DisplayHeading from '@tds/core-display-heading'
 import FlexGrid from '@tds/core-flex-grid'
 
 import {connect} from 'react-redux'
@@ -43,7 +43,7 @@ const[registered,setRegistered]=useState(false)
        <FlexGrid>
       <FlexGrid.Row>
       <FlexGrid.Col >
-       <Heading level='h3'>Register</Heading>
+       <DisplayHeading>Register</DisplayHeading>
        </FlexGrid.Col>
       </FlexGrid.Row>
       <FlexGrid.Row>
